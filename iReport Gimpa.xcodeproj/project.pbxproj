@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F9DF4D3EC8B551F0E05477D /* Pods_iReport_Gimpa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEDE1BF3854A18B7671EDFB /* Pods_iReport_Gimpa.framework */; };
+		E37C2F80B6DB9256CAD60514 /* Pods_iReport_GimpaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82AF0BE9FB2133DEB0ADA55 /* Pods_iReport_GimpaTests.framework */; };
+		EA20671D1EE1159100FFC59F /* SelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA20671C1EE1159100FFC59F /* SelectorController.swift */; };
+		EA2067211EE1226C00FFC59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2067201EE1226C00FFC59F /* ViewController.swift */; };
+		EA275CC11EE3184800704E5A /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA275CC01EE3184800704E5A /* MyClass.swift */; };
+		EA4552411F89F4C800E8EC20 /* LoaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4552401F89F4C800E8EC20 /* LoaderController.swift */; };
+		EA64CA2F1EBBB763008030E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA64CA2E1EBBB763008030E0 /* GoogleService-Info.plist */; };
 		EA6A82EF1EB5C4E900C3F0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A82EE1EB5C4E900C3F0FD /* AppDelegate.swift */; };
-		EA6A82F11EB5C4E900C3F0FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A82F01EB5C4E900C3F0FD /* ViewController.swift */; };
+		EA6A82F11EB5C4E900C3F0FD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A82F01EB5C4E900C3F0FD /* HomeController.swift */; };
 		EA6A82F41EB5C4E900C3F0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6A82F21EB5C4E900C3F0FD /* Main.storyboard */; };
 		EA6A82F61EB5C4E900C3F0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6A82F51EB5C4E900C3F0FD /* Assets.xcassets */; };
 		EA6A82F91EB5C4E900C3F0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6A82F71EB5C4E900C3F0FD /* LaunchScreen.storyboard */; };
 		EA6A83041EB5C4E900C3F0FD /* iReport_GimpaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A83031EB5C4E900C3F0FD /* iReport_GimpaTests.swift */; };
 		EA6A830F1EB5C4E900C3F0FD /* iReport_GimpaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A830E1EB5C4E900C3F0FD /* iReport_GimpaUITests.swift */; };
+		EA6A831E1EB5C7C800C3F0FD /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A831D1EB5C7C800C3F0FD /* LoginController.swift */; };
+		EA931B1F1EB768BD008978FD /* ISRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA931B1E1EB768BD008978FD /* ISRadioButton.swift */; };
+		EAB32DEB1EB7F0780089ED36 /* CompletionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB32DEA1EB7F0780089ED36 /* CompletionController.swift */; };
+		FA2F4294E6E0C65C5B9112F5 /* Pods_iReport_GimpaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0257EFB0C1F8B9F82F90FD /* Pods_iReport_GimpaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +44,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EAFEE7AF1EB665EC00B3E5E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		01716C8574EE3C2E19601CDA /* Pods-iReport GimpaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iReport GimpaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iReport GimpaUITests/Pods-iReport GimpaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		16231FE9D0F7A06FB0D24179 /* Pods-iReport GimpaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iReport GimpaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iReport GimpaUITests/Pods-iReport GimpaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60AE2CD097216034B56B8E6D /* Pods-iReport Gimpa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iReport Gimpa.release.xcconfig"; path = "Pods/Target Support Files/Pods-iReport Gimpa/Pods-iReport Gimpa.release.xcconfig"; sourceTree = "<group>"; };
+		7C0257EFB0C1F8B9F82F90FD /* Pods_iReport_GimpaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iReport_GimpaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82AF0BE9FB2133DEB0ADA55 /* Pods_iReport_GimpaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iReport_GimpaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C032C1AB189197250C7F5F /* Pods-iReport GimpaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iReport GimpaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iReport GimpaTests/Pods-iReport GimpaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6F0510F351AC3ADBE1668A0 /* Pods-iReport Gimpa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iReport Gimpa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iReport Gimpa/Pods-iReport Gimpa.debug.xcconfig"; sourceTree = "<group>"; };
+		EA20671C1EE1159100FFC59F /* SelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorController.swift; sourceTree = "<group>"; };
+		EA2067201EE1226C00FFC59F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA275CC01EE3184800704E5A /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		EA4552401F89F4C800E8EC20 /* LoaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderController.swift; sourceTree = "<group>"; };
+		EA64CA2E1EBBB763008030E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA6A82EB1EB5C4E900C3F0FD /* iReport Gimpa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iReport Gimpa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6A82EE1EB5C4E900C3F0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA6A82F01EB5C4E900C3F0FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA6A82F01EB5C4E900C3F0FD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		EA6A82F31EB5C4E900C3F0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA6A82F51EB5C4E900C3F0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6A82F81EB5C4E900C3F0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +83,11 @@
 		EA6A830A1EB5C4E900C3F0FD /* iReport GimpaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iReport GimpaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6A830E1EB5C4E900C3F0FD /* iReport_GimpaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iReport_GimpaUITests.swift; sourceTree = "<group>"; };
 		EA6A83101EB5C4E900C3F0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6A831D1EB5C7C800C3F0FD /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		EA931B1E1EB768BD008978FD /* ISRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISRadioButton.swift; sourceTree = "<group>"; };
+		EAB32DEA1EB7F0780089ED36 /* CompletionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletionController.swift; sourceTree = "<group>"; };
+		ECEDE1BF3854A18B7671EDFB /* Pods_iReport_Gimpa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iReport_Gimpa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD6576A213F68624C33ABB3 /* Pods-iReport GimpaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iReport GimpaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iReport GimpaTests/Pods-iReport GimpaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9DF4D3EC8B551F0E05477D /* Pods_iReport_Gimpa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37C2F80B6DB9256CAD60514 /* Pods_iReport_GimpaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +111,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2F4294E6E0C65C5B9112F5 /* Pods_iReport_GimpaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46D5C27BAD00EE1D714B89D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F0510F351AC3ADBE1668A0 /* Pods-iReport Gimpa.debug.xcconfig */,
+				60AE2CD097216034B56B8E6D /* Pods-iReport Gimpa.release.xcconfig */,
+				FCD6576A213F68624C33ABB3 /* Pods-iReport GimpaTests.debug.xcconfig */,
+				D3C032C1AB189197250C7F5F /* Pods-iReport GimpaTests.release.xcconfig */,
+				16231FE9D0F7A06FB0D24179 /* Pods-iReport GimpaUITests.debug.xcconfig */,
+				01716C8574EE3C2E19601CDA /* Pods-iReport GimpaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9FBE6AE1B21F32FEC997918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECEDE1BF3854A18B7671EDFB /* Pods_iReport_Gimpa.framework */,
+				B82AF0BE9FB2133DEB0ADA55 /* Pods_iReport_GimpaTests.framework */,
+				7C0257EFB0C1F8B9F82F90FD /* Pods_iReport_GimpaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA64C9EE1EBA87AE008030E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA275CC01EE3184800704E5A /* MyClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EA6A82E21EB5C4E900C3F0FD = {
 			isa = PBXGroup;
 			children = (
+				EA64CA2E1EBBB763008030E0 /* GoogleService-Info.plist */,
 				EA6A82ED1EB5C4E900C3F0FD /* iReport Gimpa */,
 				EA6A83021EB5C4E900C3F0FD /* iReport GimpaTests */,
 				EA6A830D1EB5C4E900C3F0FD /* iReport GimpaUITests */,
 				EA6A82EC1EB5C4E900C3F0FD /* Products */,
+				46D5C27BAD00EE1D714B89D3 /* Pods */,
+				E9FBE6AE1B21F32FEC997918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +175,10 @@
 		EA6A82ED1EB5C4E900C3F0FD /* iReport Gimpa */ = {
 			isa = PBXGroup;
 			children = (
+				EA64C9EE1EBA87AE008030E0 /* Model */,
+				EA931B1E1EB768BD008978FD /* ISRadioButton.swift */,
+				EA6A831C1EB5C78300C3F0FD /* Controller */,
 				EA6A82EE1EB5C4E900C3F0FD /* AppDelegate.swift */,
-				EA6A82F01EB5C4E900C3F0FD /* ViewController.swift */,
 				EA6A82F21EB5C4E900C3F0FD /* Main.storyboard */,
 				EA6A82F51EB5C4E900C3F0FD /* Assets.xcassets */,
 				EA6A82F71EB5C4E900C3F0FD /* LaunchScreen.storyboard */,
@@ -125,6 +205,19 @@
 			path = "iReport GimpaUITests";
 			sourceTree = "<group>";
 		};
+		EA6A831C1EB5C78300C3F0FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA6A831D1EB5C7C800C3F0FD /* LoginController.swift */,
+				EAB32DEA1EB7F0780089ED36 /* CompletionController.swift */,
+				EA20671C1EE1159100FFC59F /* SelectorController.swift */,
+				EA6A82F01EB5C4E900C3F0FD /* HomeController.swift */,
+				EA2067201EE1226C00FFC59F /* ViewController.swift */,
+				EA4552401F89F4C800E8EC20 /* LoaderController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA6A83131EB5C4E900C3F0FD /* Build configuration list for PBXNativeTarget "iReport Gimpa" */;
 			buildPhases = (
+				512B347D24CAAE28FE810721 /* [CP] Check Pods Manifest.lock */,
 				EA6A82E71EB5C4E900C3F0FD /* Sources */,
 				EA6A82E81EB5C4E900C3F0FD /* Frameworks */,
 				EA6A82E91EB5C4E900C3F0FD /* Resources */,
+				EAFEE7AF1EB665EC00B3E5E7 /* Embed Frameworks */,
+				9C072E9F9EA76BBEAF8B5A07 /* [CP] Embed Pods Frameworks */,
+				DCA02E3FC2A25EE9BA4025D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA6A83161EB5C4E900C3F0FD /* Build configuration list for PBXNativeTarget "iReport GimpaTests" */;
 			buildPhases = (
+				360BA3E37D57A59E373D84FE /* [CP] Check Pods Manifest.lock */,
 				EA6A82FB1EB5C4E900C3F0FD /* Sources */,
 				EA6A82FC1EB5C4E900C3F0FD /* Frameworks */,
 				EA6A82FD1EB5C4E900C3F0FD /* Resources */,
+				2BA361C3DEAA40ADB0F7DCE0 /* [CP] Embed Pods Frameworks */,
+				6AE9F53A9EFA1D4D62573312 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA6A83191EB5C4E900C3F0FD /* Build configuration list for PBXNativeTarget "iReport GimpaUITests" */;
 			buildPhases = (
+				33975B309CC89C9B45265B02 /* [CP] Check Pods Manifest.lock */,
 				EA6A83061EB5C4E900C3F0FD /* Sources */,
 				EA6A83071EB5C4E900C3F0FD /* Frameworks */,
 				EA6A83081EB5C4E900C3F0FD /* Resources */,
+				AB5400291A2BCB5038D68A89 /* [CP] Embed Pods Frameworks */,
+				6362E71E0EB46D3767369A9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +297,20 @@
 					EA6A82EA1EB5C4E900C3F0FD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4H8EN5N52L;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					EA6A82FE1EB5C4E900C3F0FD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4H8EN5N52L;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = EA6A82EA1EB5C4E900C3F0FD;
 					};
 					EA6A83091EB5C4E900C3F0FD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4H8EN5N52L;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = EA6A82EA1EB5C4E900C3F0FD;
 					};
@@ -236,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6A82F91EB5C4E900C3F0FD /* LaunchScreen.storyboard in Resources */,
+				EA64CA2F1EBBB763008030E0 /* GoogleService-Info.plist in Resources */,
 				EA6A82F61EB5C4E900C3F0FD /* Assets.xcassets in Resources */,
 				EA6A82F41EB5C4E900C3F0FD /* Main.storyboard in Resources */,
 			);
@@ -257,13 +364,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BA361C3DEAA40ADB0F7DCE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iReport GimpaTests/Pods-iReport GimpaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33975B309CC89C9B45265B02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		360BA3E37D57A59E373D84FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		512B347D24CAAE28FE810721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6362E71E0EB46D3767369A9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iReport GimpaUITests/Pods-iReport GimpaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE9F53A9EFA1D4D62573312 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iReport GimpaTests/Pods-iReport GimpaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C072E9F9EA76BBEAF8B5A07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iReport Gimpa/Pods-iReport Gimpa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5400291A2BCB5038D68A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iReport GimpaUITests/Pods-iReport GimpaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA02E3FC2A25EE9BA4025D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iReport Gimpa/Pods-iReport Gimpa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA6A82E71EB5C4E900C3F0FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6A82F11EB5C4E900C3F0FD /* ViewController.swift in Sources */,
+				EA6A82F11EB5C4E900C3F0FD /* HomeController.swift in Sources */,
+				EA931B1F1EB768BD008978FD /* ISRadioButton.swift in Sources */,
+				EA6A831E1EB5C7C800C3F0FD /* LoginController.swift in Sources */,
 				EA6A82EF1EB5C4E900C3F0FD /* AppDelegate.swift in Sources */,
+				EA275CC11EE3184800704E5A /* MyClass.swift in Sources */,
+				EA2067211EE1226C00FFC59F /* ViewController.swift in Sources */,
+				EA20671D1EE1159100FFC59F /* SelectorController.swift in Sources */,
+				EAB32DEB1EB7F0780089ED36 /* CompletionController.swift in Sources */,
+				EA4552411F89F4C800E8EC20 /* LoaderController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,32 +665,44 @@
 		};
 		EA6A83141EB5C4E900C3F0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F0510F351AC3ADBE1668A0 /* Pods-iReport Gimpa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4H8EN5N52L;
 				INFOPLIST_FILE = "iReport Gimpa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TheGroup.iReport-Gimpa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iReport Gimpa/iReport Gimpa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		EA6A83151EB5C4E900C3F0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AE2CD097216034B56B8E6D /* Pods-iReport Gimpa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4H8EN5N52L;
 				INFOPLIST_FILE = "iReport Gimpa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TheGroup.iReport-Gimpa";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iReport Gimpa/iReport Gimpa-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		EA6A83171EB5C4E900C3F0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD6576A213F68624C33ABB3 /* Pods-iReport GimpaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +718,7 @@
 		};
 		EA6A83181EB5C4E900C3F0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C032C1AB189197250C7F5F /* Pods-iReport GimpaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +734,7 @@
 		};
 		EA6A831A1EB5C4E900C3F0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16231FE9D0F7A06FB0D24179 /* Pods-iReport GimpaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4H8EN5N52L;
@@ -483,6 +749,7 @@
 		};
 		EA6A831B1EB5C4E900C3F0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01716C8574EE3C2E19601CDA /* Pods-iReport GimpaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4H8EN5N52L;
@@ -514,6 +781,7 @@
 				EA6A83151EB5C4E900C3F0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6A83161EB5C4E900C3F0FD /* Build configuration list for PBXNativeTarget "iReport GimpaTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +790,7 @@
 				EA6A83181EB5C4E900C3F0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA6A83191EB5C4E900C3F0FD /* Build configuration list for PBXNativeTarget "iReport GimpaUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +799,7 @@
 				EA6A831B1EB5C4E900C3F0FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_iReport_Gimpa {
+  umbrella header "Pods-iReport Gimpa-umbrella.h"
+
+  export *
+  module * { export * }
+}
